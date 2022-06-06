@@ -3,6 +3,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -92,7 +93,7 @@ pre {
 }
 
 img,
-.zoom-img-wrap {
+.zoom-img-wrap {  
   max-width: 100%;
   height: auto;
   vertical-align: middle;

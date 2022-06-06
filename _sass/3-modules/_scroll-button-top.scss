@@ -1,6 +1,6 @@
 .top {
   position: fixed;
-  bottom: 40px;
+  bottom: 100px;
   right: -100px;
 	z-index: 1;
 	width: 35px;
@@ -24,7 +24,7 @@
 
 @media only screen and (max-width: $tablet) {
   .top {
-    bottom: 25px;
+    bottom: 85px;
     &.is-active {
       right: 30px;
     }
