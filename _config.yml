@@ -1,4 +1,4 @@
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://blog.markkulab.net/" # the base hostname & protocol for your site, e.g. http://example.com
 web_site_domain: "https://blog.markkulab.net" 
 
@@ -8,12 +8,10 @@ markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll/tagging
-
+  - jekyll-sitemap  
+  - jekyll-seo-tag
 paginate: 5
 paginate_path: "/page/:num"
-
 
 # Pages Path
 defaults:
@@ -25,14 +23,13 @@ defaults:
 include:
   - _pages
 
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
-tag_page_data:
-  sitemap: false
-
 sass:
   sass_dir: _sass
   style: compressed
+
+# 全域 seo   
+title: "Hi, I’m Connie" # 網站的名稱
+locale: "zh-TW" # 自己的地區
+description: "UIUX designe/ Visual design/ Animation / Interaction"
+url: "https://www.connieuiux.com/" # 自己部落格的網址
+  
