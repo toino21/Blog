@@ -3,11 +3,9 @@ layout: post
 title:  超省錢架站法，透過 GitHub Pages + JeKyll，搭建自己免費 Blog 空間
 date:   2022-06-04 01:01:35 +0800
 image:  jekyll.webp
-categories: Infra
 tags:   Jekyll
-description : A short description of the page's content
+categories: Infra
 author : Mark ku
-keywords : test
 ---
 ## 問題
 因為身邊很多，想和我一樣，擁有一個個人的網站，但架一個網站，光是放在雲端空間，至少費用4000元 以上，但也不是每個人都像我有自己的伺服器，因此，今天我想來寫一篇超省錢的架站法。
@@ -66,7 +64,7 @@ Jekyll是一個簡單的靜態網站生成器，用於生成個人，專案或�
 
 ### 5. 如果新增文章，只你要在 zolan/_posts/資料夾下，新增一樣的檔案，則，就會跑出一篇新的文章。
 
-## 補充說明
+## 補充資料
 ### 我的習慣會在 [hackmd](https://hackmd.io/) 將想法打完，在複製到該資料夾，發佈
 ### 相關檔案及資料夾介紹
 zolan/_posts/ => 文章放置目錄  
@@ -75,4 +73,8 @@ zolan/_data/settings.yml => 可以設置標圖及內容
 zolan/_config.yml => 網站設置，可調整分頁大小  
 zolan/_layouts/ => 如果懂一些 html 可以調整板型  
 ### 先前文章，在容器中架設JeKyll [連結](https://blog.markkulab.net/2021/04/14/Jekyll-Markdown-Blog/)
-
+### 分類及標籤的部份 github page 基於安全性考量不支持， jekyll-tagging 套件，因此你得自己刻 [連結](http://bunchpost.site/jekyll/2018/07/08/step-jekyll-category-in-3teps.html?fbclid=IwAR0h4BIf-k5HgAOs--E8LYWTmVUyFdst1KzDecFJ2qaGjC13Gr3-n14Yu_o#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%88%86%E7%B1%BB%E9%A1%B5%E9%9D%A2)
+### 如果想優化Jekyll SEO ，可以透過下面兩個套件達成
+jekyll-sitemap  
+jekyll-seo-tag  
+### 先前文章，在容器中架設JeKyll [連結](https://blog.markkulab.net/2021/04/14/Jekyll-Markdown-Blog/)

@@ -37,6 +37,6 @@ title: 文章分類
 <style>
 .site-tag a {
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 12px;    
 }
 </style>

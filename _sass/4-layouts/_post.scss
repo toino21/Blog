@@ -18,8 +18,8 @@
 
     .post-title {
       margin: 10px 0;
-      font-size: 47px;
-      line-height: 53px;
+      font-size: 27px;
+      line-height: 32px;
     }
   }
 }
@@ -28,13 +28,12 @@
   display: flex;
   align-items: center;
   
-  .post__categories{
-   margin-right: 10px;
+  .post__categories{   
    font-weight: bold;
   }
 
   .post__author {
-    margin-right: 10px;
+    margin-left: 10px;
     font-weight: 700;
     
     .author-name {
@@ -55,19 +54,8 @@
   .post__tags {
    .post__tags-tag {
      position: relative;
-     padding-left: 15px;
-     font-weight: 700;
-     &:before {
-       content: "";
-       position: absolute;
-       top: 50%;
-       left: 0;
-       transform: translateY(-50%);
-       width: 5px;
-       height: 5px;
-       border-radius: 50%;
-       background: $dark;
-     }
+     padding-left: 10px;
+     font-weight: 700;    
    } 
   }
 }
