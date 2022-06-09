@@ -7,13 +7,13 @@ title: 文章分類
 <div class="container">
     <h2>所有分類</h2>
 </div>	
-<div class="container">
+
   <div class="categories-expo-list container">
   {% assign categories = site.categories | sort %}
 	{% for category in categories %}
 	<span class="site-tag">
     <a href="#{{ category[0] | slugify }}"
-        style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+        style="font-size: {{ category | last | size  |  times: 4 | plus: 80  }}%">
             {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
     </a>
 	</span>
@@ -32,7 +32,7 @@ title: 文章分類
     
     {% endfor %}
   </div>
-</div>
+
 
 <style>
 .site-tag a {
