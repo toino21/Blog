@@ -3,7 +3,7 @@
 url: https://www.connieuiux.com/
 title: Connie
 logo: mylogo.webp # You can add own logo.
-description: UIUX designe/ Visual design/ Animation / Interaction
+description: UIUX design/Visual design/Animation/Interaction
 
 
 #-------------------------------
@@ -12,14 +12,14 @@ author:
   name: Connie
   image: 04.jpg
   say-hello: Hi, I’m <strong>Connie</strong>
-  bio: UIUX designe/ Visual design/ Animation / Interaction
+  bio: UIUX design/Visual design/Animation/Interaction
 
 
 #-------------------------------
 # Contact links
 
-facebook: https://www.facebook.com/toino21 # Add your Facebook handle
-website: https://www.facebook.com/toino21 # Add your Facebook handle
+facebook: # Add your Facebook handle
+website: # Add your Facebook handle
 
 
 #-------------------------------
